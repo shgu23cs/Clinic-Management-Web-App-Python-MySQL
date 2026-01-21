@@ -18,10 +18,10 @@ A simple web-based application for small clinics to manage patient records and b
 ## Screenshots
 
 ### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/login.png.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png.png)
 
 ### Patient List
-![Patient List](screenshots/patients.png)
+![Patient List](screenshots/patients.png.png)
