@@ -1,0 +1,126 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* Page base */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+
+    background-image: url("/static/images/download3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header */
+.header {
+    background-color: #1f3c88;
+    color: white;
+    padding: 45px 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Main card container */
+.container {
+    width: 500px;
+    background-color: #ffffff;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f3c88;
+}
+
+/* Forms */
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f3c88;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #162d66;
+}
+
+/* Links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #1f3c88;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard menu */
+.menu {
+    width: 300px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.menu a {
+    background-color: #f4f6f8;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+/* Tables */
+table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #1f3c88;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Footer spacing */
+.page-link {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="header">Clinic Management System</div>
+
+    <div class="container">
+        <h2>Book Appointment</h2>
+
+        <form method="post" action="/appointment">
+            <select name="patient_id" required>
+                {% for p in patients %}
+                <option value="{{ p[0] }}">{{ p[1] }}</option>
+                {% endfor %}
+            </select>
+
+            <input type="date" name="date" required>
+            <input type="time" name="time" required>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+
+        <a href="/dashboard">Back</a>
+    </div>
+
+</body>
+</html>
+

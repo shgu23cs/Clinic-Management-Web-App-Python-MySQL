@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Patient</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="header">Clinic Management System</div>
+
+    <div class="container">
+        <h2>Add Patient</h2>
+
+        <form method="post" action="/add_patient">
+            <input type="text" name="name" placeholder="Patient Name" required>
+            <input type="number" name="age" placeholder="Age" required>
+            <input type="text" name="gender" placeholder="Gender" required>
+            <input type="text" name="contact" placeholder="Contact" required>
+            <button type="submit">Add Patient</button>
+        </form>
+
+        <a href="/dashboard">Back</a>
+    </div>
+
+</body>
+</html>
