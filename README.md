@@ -1,6 +1,6 @@
 # Clinic Management Web Application
 
-A simple web-based application for small clinics to manage patient records and book appointments digitally. It replaces manual record keeping with a structured and easy-to-use system.
+Designed and developed a web-based hospital management system to digitize patient records and streamline appointment scheduling for small clinics using a secure, role-based backend architecture.
 
 ## Tech Stack
 - Frontend: HTML, CSS
